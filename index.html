@@ -1,133 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
-
+ <!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IE 2025</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Imagen Escrita 2025</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
 </head>
-
-
-<!-- Inicio Body -->
-
 <body>
 
-    <!-- Sección principal -->
-    <header>
-        <h1>Portafolio IE 2025</h1>
-    </header>
+<header>
+  <div class="header-content">
+    <h1>Portafolio Imagen Escrita 2025</h1>
+    <p>Exploraciones en la intersección entre diseño, programación y arte generativo.</p>
+    <a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Javiera_Ruiz" target="_blank">Wiki del curso</a>
+  </div>
+</header>
 
-    <!-- Contenedor General -->
-    <div id="container">
+<section id="projects">
+  <h2>Proyectos</h2>
 
-        <!-- Contenedor lado izquierdo - Parrafo y botón -->
-        <div class="intro">
-            <p>
-                Imagen escrita es una asignatura que se centra en la intersección entre diseño,
-                la programación y arte generativo. Utilizando p5.js como herramienta principal, el curso explora los
-                fundamentos de la programación creativa y su aplicación en el diseño visual interactivo.
-            </p>
-            <p>
-                A través del creative coding se hace énfasis en el pensamiento computacional como herramienta de diseño,
-                fomentando un enfoque innovador en la resolución de problemas visuales y la creación artística. La
-                integración de herramientas de IA busca ampliar las posibilidades creativas y técnicas, sirviendo como
-                complemento al proceso de diseño y programación
-            </p>
+  <div id="bauhaus-canvas"></div>
 
-
-            <a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Javiera_Ruiz" target="_blank">
-                <button>
-                    wiki del proyecto
-                </button>
-            </a>
-
-        </div>
-
-        <!-- Contenedor lado derecho -->
-        <div class="proyectos">
-            <h2>Mis proyectos p5js</h2>
-
-            <!-- Contenedor galería de proyectos -->
-            <div class="galeria">
-                <!-- tarjeta proyecto 1 -->
-                <div class="tarjeta">
-                    <a href="https://editor.p5js.org/jruiz-IE/full/_D3gtXvo_" target="_blank">
-                        <img src="assets/imagen1.png">
-                        </img>
-                        <h3>Tarea 1</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 2 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 2</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 3 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 3</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 4 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 4</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 5 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 5</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 6 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 6</h3>
-                    </a>
-                </div>
-
-                <!-- tarjeta proyecto 7 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 7</h3>
-                    </a>
-                </div>
-                
-                <!-- tarjeta proyecto 8 -->
-                <div class="tarjeta">
-                    <a href="">
-                        <img src="assets/imagen2.png">
-                        </img>
-                        <h3>Tarea 8</h3>
-                    </a>
-                </div>
-
-            </div>
-
-        </div>
-
+  <div class="projects">
+    <!-- Tarea 1 -->
+    <div class="project-card left">
+      <img src="assets/tarea_1.jpg" alt="Tarea 1: Abstracción portada de álbum">
+      <div class="project-info">
+        <h3>Tarea 1</h3>
+        <p>Abstracción de la portada del álbum "La La La" de Luis Alberto Spinetta y Fito Paez (1986) replicada mediante código.</p>
+        <a href="https://editor.p5js.org/nicolas.rivera.h/sketches/dXxhjdxxx" target="_blank">Ver Sketch</a>
+      </div>
     </div>
 
-</body>
+    <!-- Tarea 2 -->
+    <div class="project-card right">
+      <img src="assets/Captura de pantalla 2025-09-24 a la(s) 18.01.11.png" alt="Tarea 2: Loop en p5.js">
+      <div class="project-info">
+        <h3>Tarea 2</h3>
+        <p>Creación de un loop en p5.js; hacer que una acción se ejecute en secuencia automáticamente.</p>
+        <a href="https://editor.p5js.org/nicolas.rivera.h/sketches/eAPLUKlxd" target="_blank">Ver Sketch</a>
+      </div>
+    </div>
 
+    <!-- Tarea 3 -->
+    <div class="project-card left">
+      <img src="assets/Captura de pantalla 2025-09-24 a la(s) 18.01.45.png" alt="Tarea 3: Transformaciones en loop">
+      <div class="project-info">
+        <h3>Tarea 3</h3>
+        <p>Uso correcto de funciones de transformación para un loop; cada elemento se diferencia por frameCount.</p>
+        <a href="https://editor.p5js.org/nicolas.rivera.h/full/zu2xwxGSG" target="_blank">Ver Sketch</a>
+      </div>
+    </div>
+
+    <!-- Tarea 4 -->
+    <div class="project-card right">
+      <img src="assets/Captura de pantalla 2025-09-24 a la(s) 17.57.31.png" alt="Tarea 4: Patrón recursivo en p5.js">
+      <div class="project-info">
+        <h3>Tarea 4</h3>
+        <p>Patrón recursivo en p5.js; la cantidad de repeticiones depende del mouse en Y y la escala se controla con el mouse en X.</p>
+        <a href="https://editor.p5js.org/nicolas.rivera.h/full/HRQi2pw4U" target="_blank">Ver Sketch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Sobre Mí</h2>
+  <p>Soy estudiante de Diseño, explorando el cruce entre código, arte y visualidad interactiva.</p>
+  <p>Puedes escribirme a: <a href="mailto:nicolas.rivera.h@mail.pucv.cl">nicolas.rivera.h@mail.pucv.cl</a></p>
+</section>
+
+<footer>
+  <p>&copy; Imagen Escrita 2025 | Nicolás Rivera </p>
+</footer>
+
+<!-- p5.js Bauhaus flotante -->
+<script>
+let shapes = [];
+let colors = ['#002fa7','#e63946','#ffcc00'];
+let types = ['circle','square','triangle'];
+let canvas;
+
+function setup(){
+  const section = document.getElementById('projects');
+  canvas = createCanvas(section.offsetWidth, section.offsetHeight + document.getElementById('about').offsetHeight);
+  canvas.parent('bauhaus-canvas');
+  canvas.style('position','absolute');
+  canvas.style('top','0');
+  canvas.style('left','0');
+  canvas.style('z-index','-1');
+  canvas.style('pointer-events','none');
+
+  for(let i=0;i<50;i++){
+    shapes.push({
+      x:Math.random()*width,
+      y:Math.random()*height,
+      size:Math.random()*30+10,
+      speedX:(Math.random()-0.5)*0.5,
+      speedY:(Math.random()-0.5)*0.5,
+      angle:Math.random()*Math.PI*2,
+      angleSpeed:(Math.random()-0.5)*0.02,
+      color:colors[Math.floor(Math.random()*colors.length)],
+      type:types[Math.floor(Math.random()*types.length)]
+    });
+  }
+}
+
+function draw(){
+  clear();
+  noStroke();
+
+  shapes.forEach(s=>{
+    s.x+=s.speedX; 
+    s.y+=s.speedY; 
+    s.angle+=s.angleSpeed;
+
+    let d=dist(mouseX,mouseY,s.x,s.y);
+    if(d<100){
+      let angle=atan2(s.y-mouseY,s.x-mouseX);
+      s.x+=cos(angle)*1.5; 
+      s.y+=sin(angle)*1.5;
+    }
+
+    push();
+    translate(s.x,s.y);
+    rotate(s.angle);
+    fill(s.color);
+    switch(s.type){
+      case 'circle': ellipse(0,0,s.size); break;
+      case 'square': rectMode(CENTER); rect(0,0,s.size,s.size); break;
+      case 'triangle': triangle(-s.size/2,s.size/2,s.size/2,s.size/2,0,-s.size/2); break;
+    }
+    pop();
+
+    if(s.x<-50) s.x=width+50;
+    if(s.x>width+50) s.x=-50;
+    if(s.y<-50) s.y=height+50;
+    if(s.y>height+50) s.y=-50;
+  });
+}
+
+function windowResized(){
+  const section = document.getElementById('projects');
+  resizeCanvas(section.offsetWidth, section.offsetHeight + document.getElementById('about').offsetHeight);
+}
+</script>
+
+</body>
 </html>
